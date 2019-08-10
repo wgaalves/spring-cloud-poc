@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: heimdall
+  cloud:
+    config:
+      uri: http://localhost:8081
+      fail-fast: true
+      password: ${CONFIG_SERVICE_PASSWORD}
+      username: user
