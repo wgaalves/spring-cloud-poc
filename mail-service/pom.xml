@@ -86,6 +86,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>mail-service</finalName>
 	</build>
 
 </project>
