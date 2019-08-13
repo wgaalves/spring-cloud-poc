@@ -9,6 +9,10 @@ services:
   mongo-heimdall:
     image: mongo
     restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: mongo
+      MONGO_INITDB_DATABASE: heimdall
     ports:
       - 27017:27017
 
