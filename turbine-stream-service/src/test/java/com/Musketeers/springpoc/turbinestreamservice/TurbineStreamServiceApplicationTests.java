@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.turbinestreamservice;
+package com.musketeers.springpoc.turbinestreamservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

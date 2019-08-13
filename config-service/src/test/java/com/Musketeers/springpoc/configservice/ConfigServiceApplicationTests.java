@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.configservice;
+package com.musketeers.springpoc.configservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

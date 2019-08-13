@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.heimdall;
+package com.musketeers.springpoc.heimdall;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

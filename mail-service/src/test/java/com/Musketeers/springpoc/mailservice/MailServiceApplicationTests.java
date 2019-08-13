@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.mailservice;
+package com.musketeers.springpoc.mailservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

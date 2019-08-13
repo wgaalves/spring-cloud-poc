@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.Musketeers.springpoc</groupId>
+		<groupId>com.musketeers.springpoc</groupId>
 		<artifactId>springpoc</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.Musketeers.springpoc</groupId>
+	<groupId>com.musketeers.springpoc</groupId>
 	<artifactId>monitoring-service</artifactId>
 	<name>monitoring-service</name>
 	<packaging>jar</packaging>
@@ -57,9 +57,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+                	<finalName>monitoring-service</finalName>
+            	</configuration>
 			</plugin>
 		</plugins>
-		<finalName>monitoring-service</finalName>
+
 	</build>
 
 </project>

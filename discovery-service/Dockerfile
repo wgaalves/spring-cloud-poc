@@ -1,4 +1,4 @@
-FROM oracle-jdk:8u152-alpine-3.7
+FROM anapsix/alpine-java:8
 
 ADD ./target/discovery-service.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/discovery-service.jar"]

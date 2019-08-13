@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.gateway;
+package com.musketeers.springpoc.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

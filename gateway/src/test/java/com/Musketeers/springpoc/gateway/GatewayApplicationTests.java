@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.gateway;
+package com.musketeers.springpoc.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

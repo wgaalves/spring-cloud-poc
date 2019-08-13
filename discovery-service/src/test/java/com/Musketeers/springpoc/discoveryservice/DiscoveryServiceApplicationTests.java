@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.discoveryservice;
+package com.musketeers.springpoc.discoveryservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

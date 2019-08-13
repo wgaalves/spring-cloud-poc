@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.authservice;
+package com.musketeers.springpoc.authservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

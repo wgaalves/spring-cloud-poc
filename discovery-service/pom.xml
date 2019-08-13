@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.Musketeers.springpoc</groupId>
+		<groupId>com.musketeers.springpoc</groupId>
 		<artifactId>springpoc</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.Musketeers.springpoc</groupId>
+	<groupId>com.musketeers.springpoc</groupId>
 	<artifactId>discovery-service</artifactId>
 	<name>discovery-service</name>
 	<packaging>jar</packaging>
@@ -56,8 +56,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<finalName>discovery-service</finalName>
+				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
-	<finalName>discovery-service</finalName>
+
 </project>

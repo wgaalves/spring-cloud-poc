@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.mailservice;
+package com.musketeers.springpoc.mailservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

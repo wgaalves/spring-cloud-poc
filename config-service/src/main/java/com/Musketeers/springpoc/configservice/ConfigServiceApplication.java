@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.configservice;
+package com.musketeers.springpoc.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.turbinestreamservice;
+package com.musketeers.springpoc.turbinestreamservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

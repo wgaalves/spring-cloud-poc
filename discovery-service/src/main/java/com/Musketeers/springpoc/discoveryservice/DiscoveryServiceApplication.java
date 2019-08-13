@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.discoveryservice;
+package com.musketeers.springpoc.discoveryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

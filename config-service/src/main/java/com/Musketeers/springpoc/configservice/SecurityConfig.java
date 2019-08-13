@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.configservice;
+package com.musketeers.springpoc.configservice;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

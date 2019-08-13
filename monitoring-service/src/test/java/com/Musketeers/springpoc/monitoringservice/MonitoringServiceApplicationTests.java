@@ -1,4 +1,4 @@
-package com.Musketeers.springpoc.monitoringservice;
+package com.musketeers.springpoc.monitoringservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
