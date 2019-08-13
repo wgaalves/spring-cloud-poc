@@ -8,7 +8,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.musketeers.springpoc</groupId>
 	<artifactId>discovery-service</artifactId>
 	<name>discovery-service</name>
 	<packaging>jar</packaging>
