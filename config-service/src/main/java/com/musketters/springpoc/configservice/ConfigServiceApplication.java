@@ -1,9 +1,8 @@
-package com.musketeers.springpoc.configservice;
+package com.musketters.springpoc.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
-
 
 @SpringBootApplication
 @EnableConfigServer

@@ -1,10 +1,10 @@
-
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
 spring:
   application:
     name: gateway
   cloud:
     config:
       uri: http://localhost:8081
-      fail-fast: true
-      password: ${CONFIG_SERVICE_PASSWORD}
-      username: user
