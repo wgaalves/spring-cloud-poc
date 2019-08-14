@@ -59,6 +59,13 @@
 					<finalName>discovery-service</finalName>
 				</configuration>
 			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.10</version>
+				<configuration>
+					<useFile>false</useFile>
+				</configuration>
+			</plugin>
 		</plugins>
 
 	</build>

@@ -3,4 +3,4 @@ spring:
     name: heimdall
   cloud:
     config:
-      uri: http://locahost:8081
+      uri: http://config-service:8081

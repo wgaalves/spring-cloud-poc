@@ -8,7 +8,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.musketeers.springpoc</groupId>
 	<artifactId>gateway</artifactId>
 	<name>gateway</name>
 	<packaging>jar</packaging>
