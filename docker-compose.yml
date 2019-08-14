@@ -1,4 +1,4 @@
-version: '3'
+version: '2.3'
 
 
 services:
@@ -30,7 +30,9 @@ services:
   discovery-service:
     build: discovery-service
     depends_on:
-      - config-service
+      config-service:
+        condition: service_healthy
+    restart: on-failure
     links:
       - config-service
     ports:
@@ -38,8 +40,10 @@ services:
 
   gateway:
     build: gateway
+    entrypoint: ["sh", "-c", "sleep 5 && nc -l localhost 8081"]
     depends_on:
-      - config-service
+      config-service:
+        condition: service_healthy
     links:
       - config-service
     ports:
@@ -48,16 +52,19 @@ services:
   monitoring-service:
     build: monitoring-service
     depends_on:
-      - config-service
+      config-service:
+        condition: service_healthy
     links:
       - config-service
+    restart: on-failure
     ports:
       - "8085:8085"
 
   heimdall:
     build: heimdall
     depends_on:
-      - config-service
+      config-service:
+        condition: service_healthy
     links:
       - config-service
     ports:
