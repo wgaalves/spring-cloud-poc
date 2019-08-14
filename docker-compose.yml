@@ -17,6 +17,8 @@ services:
       MONGO_INITDB_DATABASE: heimdall
     ports:
       - "27017:27017"
+    volumes:
+      - ./mongodb-heimdall/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
 
   config-service:
     build: config-service
