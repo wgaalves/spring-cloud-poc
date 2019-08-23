@@ -35,6 +35,8 @@ services:
     restart: on-failure
     links:
       - config-service
+    healthcheck:
+      test: "exit 0"
     ports:
       - "8082:8082"
 
@@ -79,4 +81,12 @@ services:
       - config-service
     ports:
       - "8088:8088"
-
+  ui:
+    build: ui
+    depends_on:
+      discovery-service:
+        condition: service_healthy
+    links:
+      - discovery-service
+    ports:
+      - "3000:3000"
