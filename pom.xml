@@ -34,6 +34,7 @@
 	</dependencyManagement>
 	
 	<modules>
+		<module>account-service</module>
         <module>config-service</module>
 		<module>monitoring-service</module>
         <module>discovery-service</module>
